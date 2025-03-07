@@ -95,4 +95,3 @@ variable fd equal (((v_p2-v_fm)*(v_p3-v_fm)*(v_p4-v_fm))-v_p11^2*(v_p4-v_fm)-v_p
 dump 2 all custom 10000 dump.defo.* id type x y z c_csym c_2[1] c_2[2] c_2[3] c_2[4] c_2[5] c_2[6]
 
 fix def_print all print 100 "${p1} ${p2} ${p3} ${p4} ${p5} ${p6} ${p7} ${p8} ${p9} ${p10} ${p11} ${p12} ${p13} ${fm} ${fv} ${t} ${fd}" file mg001.defo.txt screen no
-run 100000 
