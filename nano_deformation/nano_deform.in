@@ -52,7 +52,7 @@ unfix 1
 unfix 2
 
 #-----------------Pressure Equilibriation-----------------------
-fix 1 all npt 100.0 100.0 10.0 aniso NULL NULL NULL NULL 0.0 0.0 10 drag 0.3
+fix 1 all npt 100.0 100.0 100.0 aniso NULL NULL NULL NULL 0.0 0.0 10 drag 0.3
 run 10000
 unfix 1
 undump 1
