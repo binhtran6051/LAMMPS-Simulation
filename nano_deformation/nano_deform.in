@@ -24,7 +24,7 @@ pair_coeff   * * Al-Mg.eam.fs Mg
 # ------------------------- SETTINGS ---------------------------------
 #### Computes Required
 compute csym all centro/atom 12
-compute 2 all stress/atom
+compute all stress/atom
 compute mytemp all temp
 compute 11 all reduce sum c_2[1]
 compute 12 all reduce sum c_2[2]
